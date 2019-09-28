@@ -14,16 +14,18 @@ body{
     justify-content: center;
     width: 500px;
     box-sizing: border-box;
-    margin-top: 50px;
+    margin-top: 250px;
     padding: 13px;
     background-color: #ffffff;
     border-radius: 10px;
-    border: 2px solid #e1b12c;
+    border: 2px solid #ffffff;
     
 }
 .search-btn{
     border: none;
     width: 400px;
+    font-weight: 600;
+
 }
 
 .icon {
@@ -82,16 +84,21 @@ line-height: 40px;
   }
   .card-position {
       display: flex;
-      justify-content: space-between;
+      justify-content: space-around;
   }
   
   .pic-size {
     width: 200px;
-    height: 150px
+    height: 190px;
   }
-  .color-text {
-    color: white
-  }
-    
 
-  
+  .background-else {
+    background-attachment: fixed;
+    width: 100%;
+    min-height: 700px;
+    background-image: url("https://www.yushanchineserestaurant.com/images/yushan/background.jpg");
+    background-size: cover;
+  }
+.hihi{
+    margin: 20px;
+}
