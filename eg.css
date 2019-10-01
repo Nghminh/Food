@@ -28,6 +28,8 @@ body{
 
 }
 
+
+
 .icon {
     height: 100%;
     /* padding: 0 13px; */
@@ -52,14 +54,24 @@ line-height: 40px;
     
 }
 
+.card-position {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    max-width: 300px;
+    width: 250px;
     text-align: center;
     font-family: arial;
     font-size: 18px;
     margin: 50px;
-  
+    min-height: 500px;
+  }
+
+  #Fucking {
+    margin-top: auto;
   }
   
   .price {
