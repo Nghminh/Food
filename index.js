@@ -222,8 +222,8 @@ function getValue() {
                                 src="${info.link}"
                                 alt=" Denim Jeans" style="width:100%">
                             <h1> ${info.name}</h1>
-                            <p class="price">avarage price: $3.99</p>
-                            <p>Fucking delicious</p>
+                            <p class="price"><3</p>
+                            <p>Delicious!</p>
                             <p id="Fucking"><button>${info.address}</button></p>
                         </div>
                     </div>
