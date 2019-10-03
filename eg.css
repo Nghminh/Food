@@ -67,7 +67,7 @@ line-height: 40px;
     font-family: arial;
     font-size: 18px;
     margin: 50px;
-    min-height: 500px;
+    min-height: 300px;
   }
 
   #Fucking {
@@ -113,4 +113,11 @@ line-height: 40px;
   }
 .hihi{
     margin: 20px;
+}
+.hoho{
+  margin: 20px;
+}
+.pic{
+  width: 200px;
+  height: 180px;
 }
