@@ -121,3 +121,8 @@ line-height: 40px;
   width: 200px;
   height: 180px;
 }
+.navbar-brand{
+  font-family: 'Chewy', cursive;
+  font-size: 30px;
+  left: 20%;
+}
