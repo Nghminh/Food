@@ -180,23 +180,9 @@ var dataSource = [
             }, {
                 id: "Trà Sữa",
                 info: [
-                    { name: "", address: "", link: "" },
-                    { name: "", address: "", link: "" },
-                    { name: "", address: "", link: "" },
-                ]
-            }, {
-                id: "Cà Phê",
-                info: [
-                    { name: "", address: "", link: "" },
-                    { name: "", address: "", link: "" },
-                    { name: "", address: "", link: "" },
-                ]
-            }, {
-                id: "Trà Đào",
-                info: [
-                    { name: "", address: "", link: "" },
-                    { name: "", address: "", link: "" },
-                    { name: "", address: "", link: "" },
+                    { name: "Tiger Sugar", address: "Số 5 Thái Phiên", link: "http://www.asiaone.com/sites/default/files/original_images/Jan2019/20190111_tigersugar_fb%20%281%29.jpg" },
+                    { name: "Coco", address: "105 Láng Hạ", link: "https://media-ak.static-adayroi.com/800_600/70/hd3/ha0/11580802007070.jpg" },
+                    { name: "Sharetea", address: "78 Nguyễn Chí Thanh", link: "http://channel.mediacdn.vn//prupload/164/2017/04/img20170404015931285.jpg"},
                 ]
             },]
 
@@ -221,7 +207,7 @@ function getValue() {
                             <img class="pic"
                                 src="${info.link}"
                                 alt=" Denim Jeans" style="width:100%">
-                            <h1> ${info.name}</h1>
+                            <h2 class="hoho"><b> ${info.name}</b></h2>
                             <p class="price"><3</p>
                             <p>Delicious!</p>
                             <p id="Fucking"><button>${info.address}</button></p>
